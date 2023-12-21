@@ -1,11 +1,11 @@
 {
-    "name": "nodejs-extension-pack",
-    "displayName": "Node.js Extension Pack",
-    "description": "Popular VS Code extensions for Node.js development.",
-    "version": "0.1.8",
-    "publisher": "waderyan",
+    "name": "asas-extension-pack",
+    "displayName": "Asas Extension Pack",
+    "description": "Popular VS Code extensions for development.",
+    "version": "1.0.0",
+    "publisher": "Muhammad Assar",
     "engines": {
-        "vscode": "^1.10.0"
+        "vscode": "^1.85.0"
     },
     "icon": "nodejs-dark-icon.png",
     "galleryBanner": {
@@ -21,18 +21,27 @@
         "Extension Packs"
     ],
     "repository": {
-        "url": "https://github.com/waderyan/nodejs-extension-pack"
+        "url": "https://github.com/MuhAssar/asas-vscode-extension-pack"
     },
-    "homepage": "https://github.com/waderyan/nodejs-extension-pack",
+    "homepage": "https://github.com/MuhAssar/asas-vscode-extension-pack",
     "bugs": {
-        "url": "https://github.com/waderyan/nodejs-extension-pack/issues"
+        "url": "https://github.com/MuhAssar/asas-vscode-extension-pack/issues"
     },
     "extensionDependencies": [
+        "achil.vscode-javascript-repl",
+        "alefragnani.bookmarks",
         "dbaeumer.vscode-eslint",
-        "xabikos.javascriptsnippets",
-        "jasonnutter.search-node-modules",
-        "eg2.vscode-npm-script",
-        "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense"
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "github.vscode-pull-request-github",
+        "gruntfuggly.todo-tree",
+        "jasonlhy.hungry-delete",
+        "mikestead.dotenv",
+        "pnp.polacode",
+        "usernamehw.errorlens",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "visualstudioexptteam.vscodeintellicode",
+        "xyz.local-history"
     ]
 }
