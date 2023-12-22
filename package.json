@@ -1,47 +1,51 @@
 {
-    "name": "asas-extension-pack",
-    "displayName": "Asas Extension Pack",
-    "description": "Popular VS Code extensions for development.",
-    "version": "1.0.0",
-    "publisher": "Muhammad Assar",
-    "engines": {
-        "vscode": "^1.85.0"
-    },
-    "icon": "nodejs-dark-icon.png",
-    "galleryBanner": {
-        "color": "#333333",
-        "theme": "dark"
-    },
-    "keywords": [
-        "node",
-        "nodejs",
-        "javascript"
-    ],
-    "categories": [
-        "Extension Packs"
-    ],
-    "repository": {
-        "url": "https://github.com/MuhAssar/asas-vscode-extension-pack"
-    },
-    "homepage": "https://github.com/MuhAssar/asas-vscode-extension-pack",
-    "bugs": {
-        "url": "https://github.com/MuhAssar/asas-vscode-extension-pack/issues"
-    },
-    "extensionDependencies": [
-        "achil.vscode-javascript-repl",
-        "alefragnani.bookmarks",
-        "dbaeumer.vscode-eslint",
-        "donjayamanne.githistory",
-        "eamodio.gitlens",
-        "esbenp.prettier-vscode",
-        "github.vscode-pull-request-github",
-        "gruntfuggly.todo-tree",
-        "jasonlhy.hungry-delete",
-        "mikestead.dotenv",
-        "pnp.polacode",
-        "usernamehw.errorlens",
-        "visualstudioexptteam.intellicode-api-usage-examples",
-        "visualstudioexptteam.vscodeintellicode",
-        "xyz.local-history"
-    ]
+  "name": "asas-extension-pack",
+  "displayName": "Asas Extension Pack",
+  "description": "Popular VS Code extensions for development.",
+  "version": "1.0.0",
+  "publisher": "Muhammad Assar",
+  "scripts": {
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "icon": "nodejs-dark-icon.png",
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "repository": {
+    "url": "https://github.com/MuhAssar/asas-vscode-extension-pack"
+  },
+  "homepage": "https://github.com/MuhAssar/asas-vscode-extension-pack",
+  "bugs": {
+    "url": "https://github.com/MuhAssar/asas-vscode-extension-pack/issues"
+  },
+  "extensionDependencies": [
+    "achil.vscode-javascript-repl",
+    "alefragnani.bookmarks",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "github.vscode-pull-request-github",
+    "gruntfuggly.todo-tree",
+    "jasonlhy.hungry-delete",
+    "mikestead.dotenv",
+    "pnp.polacode",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+    "xyz.local-history"
+  ]
 }
